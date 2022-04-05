@@ -1,0 +1,284 @@
+/*common css start*/
+    *{
+        margin: 0;
+        padding: 0;
+        outline: 0;
+        box-sizing: border-box;
+    }
+    body{
+        font-family: 'Lato', sans-serif;
+    }
+    ol, ul{
+        list-style-type: none;
+    }
+    a{
+        text-decoration: none;
+    }
+    .container{
+        width: 1170px;
+        margin: 0 auto;
+    
+    }
+    .row{
+        display: flex;
+        flex-wrap: wrap;
+    }
+/* // common css end*/
+/* nav section start*/
+nav{
+    background-color: #131e29;
+}
+nav .row{
+    align-items: center;
+}
+nav .logo img{
+    display: block;
+}
+nav .logo{
+    width: 20%;
+}
+nav .menu{
+    width: 80%;
+}
+
+nav .menu ul{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+
+}
+nav .menu ul li a{
+    display: inline-block;
+    color: white;
+    padding: 44px 18.5px;
+    text-transform: uppercase;
+}
+.border{
+    color: #556e85;
+    height: 1px;
+    background-color: #556e85;
+}
+/* // nav section end*/
+/* banner section start */
+#banner{
+    background-image: url(../img/banner.png);
+    height: 700px;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    overflow: hidden;
+}
+#banner .container,
+#banner .container .row{
+    height: 100%;
+}
+#banner .row{
+    align-items: center;
+}
+#banner .banner_img{
+    width: 40%;
+}
+#banner .banner_img img{
+    height: 100%;
+    position: absolute;
+    left: -100px;
+    bottom: -110px;
+}
+#banner .banner_content{
+    width: 60%;
+    padding-left: 58px;
+    color: white;
+}
+#banner h1{
+    font-size: 40px;
+    font-weight: 300;
+}
+#banner p{
+    padding-top: 33px;
+    padding-bottom: 44px;
+    font-size: 15px;
+}
+#banner span{
+    font-weight: 700;
+}
+#banner .banner_app_btn p{
+    margin-right: 22px;
+}
+#banner .banner_content .banner_btn a{
+    display: inline-block;
+    padding: 15px 25px;
+    color: white;
+    text-transform: uppercase;
+    border: 3px solid white;
+    border-radius: 10px;
+    transition: all .4s linear;
+    box-shadow: 0 3px 0 rgba(39, 118, 151, 0);
+}
+#banner .banner_content .banner_btn a:hover{
+    background-color: #4bcaff;
+    border-color: #4bcaff;
+    box-shadow: 0 3px 0 rgba(39, 118, 151, 1);
+}
+#banner .banner_app_btn{
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 25px;
+}
+#banner .banner_app_btn i{
+    font-size: 30px;
+    text-align: center;
+    line-height: 52px;
+    color: #4bcaff;
+    width: 52px;
+    height: 52px;
+    background-color: #181d23;
+    border-radius: 50%;
+    margin-right: 16px;
+
+}
+/*// banner section end */
+
+.border2{
+    background-color: #4bcaff;
+    color: #4bcaff;
+    height: 4px;
+}
+
+/* summarise section start*/
+section{
+    padding: 49px 0;
+    background-color: #f9f9f9;
+}
+#summarise .row{
+    margin-top: 73px;
+    margin-bottom: 94px;
+}
+#summarise .sec_info{
+    text-align: center;
+}
+#summarise .sec_info h3{
+    font-size: 36px;
+    color: #414042;
+    line-height: 25px;
+}
+#summarise .sec_info span{
+    font-size: 20px;
+    font-weight: 300;
+}
+#summarise .summarise_content{
+    width: 25%;
+    text-align: center;
+    padding-right: 48px;
+    padding-left: 48px;
+}
+#summarise .summarise_content .unique{
+    color: #4bcaff;
+}
+
+}
+#summarise .summarise_content h5{
+    font-size: 15px;
+    font-weight: 700;
+    color: #414042;
+    text-transform: uppercase;
+}
+#summarise .summarise_content p{
+    font-size: 13px;
+    line-height: 12px;
+    color: #838383;
+    width: 219px;
+    margin: 0 auto;
+}
+#summarise .row .summarise_content i{
+    font-size: 60px;
+    text-align: center;
+    line-height: 170px;
+    color: white;
+    width: 166px;
+    height: 166px;
+    background-color: #4bcaff;
+    border-radius: 50%;
+    margin-bottom: 30px;
+}
+
+/* // summarise section end */
+
+
+/* gallery section start*/
+#gallery{
+    margin: 49px 0;
+}
+#gallery .row{
+    margin-top: 62px;
+
+}
+#gallery .gallery_info{
+    text-align: center;
+}
+#gallery .gallery_info h3{
+    font-size: 36px;
+    color: #414042;
+    line-height: 25px;
+}
+#gallery .gallery_info span{
+    font-size: 20px;
+    font-weight: 300;
+}
+#gallery .gallery_content{
+    width: 25%;
+    text-align: center;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+#gallery .gallery_content p{
+    font-size: 13px;
+    line-height: 12px;
+    color: #838383;
+    width: 219px;
+    margin: 0 auto;
+    margin-top: 24px;
+}
+/*// gallery section end*/
+
+/* banner 2 start*/
+#banner2{
+    background-image: url(../img/banner2.png);
+    height: 550px;
+    background-size: cover;
+    background-position: center;
+    margin-top: 100px;
+}
+#banner .container,
+#banner .container .row{
+    height: 100%;
+}
+#banner2 .row{
+    align-items: center;
+}
+#banner .banner_img{
+    width: 40%;
+}
+#banner2 .banner2_content{
+    width: 60%;
+    padding-left: 58px;
+    color: white;
+    margin: 0 auto;
+    margin-top: 81px;
+    margin-bottom: 203px;
+}
+#banner2 h1{
+    font-size: 40px;
+    font-weight: 300;
+}
+#banner2 p{
+    padding-top: 33px;
+    padding-bottom: 44px;
+    font-size: 15px;
+}
+#banner2 span{
+    font-weight: 700;
+}
+
+/* //banner 2 start*/
